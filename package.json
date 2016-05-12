@@ -1,0 +1,24 @@
+{
+  "name": "node-tdd-intro",
+  "version": "1.0.0",
+  "description": "introduction to tdd with mocha and chai in nodejs",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tdd",
+    "noodejs",
+    "mocha",
+    "chai"
+  ],
+  "author": "Roman Kollatschny, Matthias Schmidt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanKol/node-tdd-tutorial.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
