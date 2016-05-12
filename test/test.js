@@ -24,4 +24,14 @@ describe('helloWorld app testsuite', function() {
 
   });
 
+  // Define our second test case
+  it('returns the string "Hello John"', function() {
+
+    // Define our second test
+    expect(App)
+      .to.be.a('string')
+      .and.is.equal('Hello John');
+
+  });
+
 });
