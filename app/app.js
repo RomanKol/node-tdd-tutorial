@@ -11,6 +11,10 @@ class Hello {
   helloJohn() {
     return 'Hello John';
   }
+  // Class function which returns the argument in an string
+  hello(string) {
+    return 'Hello ' + string;
+  }
 }
 
 // Export the module
