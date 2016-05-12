@@ -37,4 +37,14 @@ describe('helloWorld app testsuite', function() {
 
   });
 
+  // Define our third test case
+  it('returns the string "Hello Joe" where Joe is passed as a variable', function() {
+
+    // Define our third test
+    expect(hello.hello('Joe'))
+      .to.be.a('string')
+      .and.is.equal('Hello Joe');
+
+  });
+
 });
