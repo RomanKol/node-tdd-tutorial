@@ -21,7 +21,7 @@ describe('helloWorld app testsuite', function() {
 
     // Define our first test
     // except(application).to...
-    expect(hello.helloWorld())
+    expect(hello.hello())
       .to.be.a('string')
       .and.is.equal('Hello World');
 
@@ -31,7 +31,7 @@ describe('helloWorld app testsuite', function() {
   it('returns the string "Hello John"', function() {
 
     // Define our second test
-    expect(hello.helloJohn())
+    expect(hello.hello('John'))
       .to.be.a('string')
       .and.is.equal('Hello John');
 
