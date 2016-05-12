@@ -8,6 +8,9 @@ let expect = require('chai').expect;
 // require('pathToApplication')
 let App = require('./../app/app.js');
 
+// Create an new instance of our applicaton
+let hello = new App();
+
 // Define our first test suite
 // describe('testSuite')
 describe('helloWorld app testsuite', function() {
@@ -18,7 +21,7 @@ describe('helloWorld app testsuite', function() {
 
     // Define our first test
     // except(application).to...
-    expect(App)
+    expect(hello.helloWorld())
       .to.be.a('string')
       .and.is.equal('Hello World');
 
@@ -28,7 +31,7 @@ describe('helloWorld app testsuite', function() {
   it('returns the string "Hello John"', function() {
 
     // Define our second test
-    expect(App)
+    expect(hello.helloJohn())
       .to.be.a('string')
       .and.is.equal('Hello John');
 
